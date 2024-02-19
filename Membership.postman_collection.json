@@ -1,0 +1,598 @@
+{
+	"info": {
+		"_postman_id": "e03f03cd-b8e2-4fe7-a61b-85f1647cbb23",
+		"name": "Membership",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22333039"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8070/membership/api/users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"username\": \"Alexandra\",\r\n        \"email\": \"alexandra@gmail.com\",\r\n        \"roles\": [\r\n            \"ROLE_USER\",\r\n            \"ROLE_MEMBER\"\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8070/membership/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8070",
+					"path": [
+						"membership",
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8070/membership/api/users/Alexandra",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"username\": \"Alexandra\",\r\n        \"email\": \"alexandra@gmail.com\",\r\n        \"roles\": [\r\n            \"ROLE_USER\",\r\n            \"ROLE_MEMBER\"\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8070/membership/api/users/Alexandra",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8070",
+					"path": [
+						"membership",
+						"api",
+						"users",
+						"Alexandra"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8070/membership/api/users/Alexandra",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"username\": \"Alexandra\",\r\n        \"email\": \"alexandra@gmail.com\",\r\n        \"roles\": [\r\n            \"ROLE_USER\",\r\n            \"ROLE_MEMBER\"\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8070/membership/api/users/Alexandra",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8070",
+					"path": [
+						"membership",
+						"api",
+						"users",
+						"Alexandra"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8070/membership/api/users/Alex",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"username\": \"Alexandra\",\r\n        \"email\": \"alexandra@gmail.com\",\r\n        \"roles\": [\r\n            \"ROLE_USER\",\r\n            \"ROLE_MEMBER\"\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8070/membership/api/users/Alex",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8070",
+					"path": [
+						"membership",
+						"api",
+						"users",
+						"Alex"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8070/membership/api/users/Alex",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"username\": \"Alexandra\",\r\n        \"email\": \"alexandra@gmail.com\",\r\n        \"roles\": [\r\n            \"ROLE_USER\",\r\n            \"ROLE_MEMBER\"\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8070/membership/api/users/Alex",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8070",
+					"path": [
+						"membership",
+						"api",
+						"users",
+						"Alex"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8070/membership/api/users/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"username\": \"Alex\",\r\n        \"email\": \"alex@gmail.com\",\r\n        \"roles\": [\r\n            \"ROLE_USER\",\r\n            \"ROLE_MEMBER\"\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8070/membership/api/users/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8070",
+					"path": [
+						"membership",
+						"api",
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8070/membership/api/users/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8070/membership/api/users/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8070",
+					"path": [
+						"membership",
+						"api",
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8070/membership/api/users/Cheikh",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8070/membership/api/users/Cheikh",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8070",
+					"path": [
+						"membership",
+						"api",
+						"users",
+						"Cheikh"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8070/membership/api/users/Cheikh",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8070/membership/api/users/Cheikh",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8070",
+					"path": [
+						"membership",
+						"api",
+						"users",
+						"Cheikh"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8070/membership/api/users/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"Marine\",\r\n    \"email\":\"Marine@gmail.com\",\r\n    \"roles\":[\"ROLE_USER\",\"ROLE_MEMBER\"]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8070/membership/api/users/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8070",
+					"path": [
+						"membership",
+						"api",
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8070/membership/api/users/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"Marine\",\r\n    \"email\":\"Marine@gmail.com\",\r\n    \"roles\":[\"ROLE_USER\",\"ROLE_MEMBER\"]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8070/membership/api/users/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8070",
+					"path": [
+						"membership",
+						"api",
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8070/membership/api/users/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"Diego\",\r\n    \"email\":\"diego@gmail.com\",\r\n    \"roles\":[\"ROLE_USER\",\"ROLE_MEMBER\"]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8070/membership/api/users/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8070",
+					"path": [
+						"membership",
+						"api",
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8070/membership/api/users/Diaga",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"Diego\",\r\n    \"email\":\"diego@gmail.com\",\r\n    \"roles\":[\"ROLE_USER\",\"ROLE_MEMBER\"]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8070/membership/api/users/Diaga",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8070",
+					"path": [
+						"membership",
+						"api",
+						"users",
+						"Diaga"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8070/membership/api/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"Diaga\",\r\n    \"email\":\"diaga@gmail.com\",\r\n    \"roles\":[\"ROLE_USER\",\"ROLE_MEMBER\"]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8070/membership/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8070",
+					"path": [
+						"membership",
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8070/membership/api/users/Elena",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8070/membership/api/users/Elena",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8070",
+					"path": [
+						"membership",
+						"api",
+						"users",
+						"Elena"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8070/membership/api/users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"Cheikh\",\r\n    \"email\":\"cheikh@gmail.com\",\r\n    \"roles\":[\"ROLE_USER\",\"ROLE_MEMBER\"]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8070/membership/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8070",
+					"path": [
+						"membership",
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8070/membership/api/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"Cheikh\",\r\n    \"email\":\"cheikh@gmail.com\",\r\n    \"roles\":[\"ROLE_USER\",\"ROLE_MEMBER\"]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8070/membership/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8070",
+					"path": [
+						"membership",
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8070/membership/api/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"Elena\",\r\n    \"email\":\"elena@gmail.com\",\r\n    \"roles\":[\"ROLE_USER\",\"ROLE_MEMBER\"]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8070/membership/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8070",
+					"path": [
+						"membership",
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
